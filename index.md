@@ -1,5 +1,5 @@
 
-on deep learning and other topics. Please see [rastringer.com](https://www.rastringer.com) for bio and projects.
+Please see [rastringer.com](https://www.rastringer.com) for bio and projects.
 
 **Autonomous Vehicles** 
 
