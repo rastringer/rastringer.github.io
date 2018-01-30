@@ -1,7 +1,10 @@
 
 ## Distilling the Blockchain
 
+[//]: # (Image References)
 
+[image1]: images/blockchain1.PNG "Distributed ledger"
+[image2]: images/blockchain2.PNG "Merkle tree"
 
 Blockchain technologies enable parties who don’t know one another to have a relationship based on trust, accountability and transparency. Whereas government regulations, industry endorsements and even online reviews help us to assess which service provider to trust, where to eat, or which doctor to choose, distributed ledgers may provide validation for separate entities and erode the need for centralized authorities. As such, the technology may prove the most revolutionary of this still young century. 
 
@@ -19,8 +22,7 @@ Distributed ledgers mean we can do much more than send transactions to one anoth
 
 
 
-![alt text](files/images\blockchain1.PNG "Distributed ledger")
-
+![alt text][image1]
 
 A crucial part of the technology is the consensus mechanism, part of the protocol in the diagram. This allows participants to synchronize the same block data and prevents fraudulent attacks which may aim to inject transactions into the chain where no value has changed hands. Before we look at some of the popular methods for achieving consensus, let’s first go over what we mean by a ‘block’.
 
@@ -31,7 +33,7 @@ The miner, or pool of miners working together, that wins this race is rewarded a
 This is known as the ‘proof of work’ consensus mechanism. The following diagram shows how the blocks and hashes combine to form a chronological record of transactions. The chain is generally irrevocable, since to go back in time and rewrite the chain would be unthinkably computationally expensive. The binary hash tree, known as a merkle tree, for the transactions to be included.
 
 
-![alt text](files/images\blockchain2.PNG "Merkle tree")
+![alt text][image1]
 tx = transaction
 
 
