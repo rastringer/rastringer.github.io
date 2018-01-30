@@ -87,4 +87,10 @@ Would immutable data records be worthwhile for your data?
 
 ### To sum up
 
-Blockchain is a broad and fascinating field which lies at the intersection of mathematics (cryptography), computer science (the implementation) and may greatly improve and impact industry, finance, government and civics. We'll dive deeper into the technology and further use cases in subsequent posts. 
+Blockchain is a broad and fascinating field which lies at the intersection of mathematics (cryptography), computer science (the implementation) and may greatly improve and impact industry, finance, government and civics. We'll dive deeper into the technology and further use cases in subsequent posts.
+
+#### Sources
+Nakamoto's Bitcoin paper: https://bitcoin.org/bitcoin.pdf
+Ethereum: https://ethereum.org/
+With thanks to the Linux Foundations's excellent Hyperledger course on EdX.
+https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x
