@@ -33,7 +33,7 @@ The miner, or pool of miners working together, that wins this race is rewarded a
 This is known as the ‘proof of work’ consensus mechanism. The following diagram shows how the blocks and hashes combine to form a chronological record of transactions. The chain is generally irrevocable, since to go back in time and rewrite the chain would be unthinkably computationally expensive. The binary hash tree, known as a merkle tree, for the transactions to be included.
 
 
-![alt text][image1]
+![alt text][image2]
 tx = transaction
 
 
