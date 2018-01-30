@@ -94,6 +94,6 @@ Nakamoto's Bitcoin paper: https://bitcoin.org/bitcoin.pdf
 
 Ethereum: https://ethereum.org/
 
-With thanks to the Linux Foundations's excellent Hyperledger course on EdX.
+With thanks to the Linux Foundations's excellent Hyperledger course on edX:
 
 https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x
