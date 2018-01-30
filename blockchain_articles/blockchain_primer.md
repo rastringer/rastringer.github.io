@@ -66,7 +66,7 @@ A further progression came from the Ethereum currency and the smart contracts it
 Since the original internet protocols don’t include a means of encrypting identity, we have a fragmented internet where our personal data and contacts maybe held by Facebook or Microsoft, our photos by Google, vacation arrangements on Expedia, and all require logins and passwords. Ethereum is the first of now several projects that may even lead the charge towards not only smart contracts and digital currency, but a new internet. We’ll go deeper into smart contracts in a separate article. 
 
 
-### What does this mean for our clients?
+### What does this mean for clients?
 
 
 For clients interested in blockchain technology, a good starting point may be to ask about their business needs. There may be scope for leveraging a distributed ledger to help them increase efficiency, avoid third party fees, and make their systems more secure and accurate. Some questions worth asking:
@@ -91,6 +91,9 @@ Blockchain is a broad and fascinating field which lies at the intersection of ma
 
 #### Sources
 Nakamoto's Bitcoin paper: https://bitcoin.org/bitcoin.pdf
+
 Ethereum: https://ethereum.org/
+
 With thanks to the Linux Foundations's excellent Hyperledger course on EdX.
+
 https://www.edx.org/course/blockchain-business-introduction-linuxfoundationx-lfs171x
