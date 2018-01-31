@@ -101,6 +101,8 @@ Would immutable data records be worthwhile for your data?
 
 Blockchain is a broad and fascinating field which lies at the intersection of mathematics (cryptography), computer science (the implementation) and may greatly improve and impact industry, finance, government and civics. We'll dive deeper into the technology and further use cases in subsequent posts.
 
+-- With thanks to Eric Kutsoati  
+
 #### Sources
 
 Nakamoto's Bitcoin paper: <https://bitcoin.org/bitcoin.pdf>
