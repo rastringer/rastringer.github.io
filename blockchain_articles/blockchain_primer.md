@@ -29,7 +29,7 @@ A crucial part of the technology is the consensus mechanism, part of the protoco
 
 A block is a set of transactions bundled together and added to the chain at the same time. In the case of Bitcoin, ‘miners’ bundle confirmed and unconfirmed transactions together. They then use extensive computing power in a race to solve cryptographic challenges and propose this grouping of confirmed and unconfirmed transactions as the next entirely valid block to be added to the chain. 
 
-The miner, or pool of miners working together, that wins this race is rewarded a fee for contributing to the network. Each block is marked with a timestamp, a cryptographic hash, and is now part of the public ledger. You can see the latest blocks for Bitcoin here - https://blockchain.info 
+The miner, or pool of miners working together, that wins this race is rewarded a fee for contributing to the network. Each block is marked with a timestamp, a cryptographic hash, and is now part of the public ledger. You can see the latest blocks for Bitcoin [here](https://blockchain.info). 
 
 This is known as the ‘proof of work’ consensus mechanism. The following diagram shows how the blocks and hashes combine to form a chronological record of transactions. The chain is generally irrevocable, since to go back in time and rewrite the chain would be unthinkably computationally expensive. The binary hash tree, known as a merkle tree, for the transactions to be included.
 
