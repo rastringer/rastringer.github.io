@@ -46,8 +46,8 @@ In this fashion the entire blockchain becomes one single source of truth.  The r
 
 
 
-The ‘proof-of-work’ model is difficult to do efficiently at scale. In the case of Bitcoin, the computation power necessary to solve the cryptographic riddles necessary to process the blocks, and update and synchronize an ever-growing blockchain means Bitcoin accounts for 0.21 percent [worldwide electricity consumption](https://digiconomist.net/bitcoin-energy-consumption).
-It also suffers from a lack of efficiency, with slow transaction times, and high fees. In December 2017, the highest average transaction fee reached [$55](https://bitinfocharts.com/comparison/bitcoin-transactionfees.html#3m).
+The ‘proof-of-work’ model is difficult to do efficiently at scale. In the case of Bitcoin, the computation power necessary to solve the cryptographic riddles necessary to process the blocks, and update and synchronize an ever-growing blockchain means Bitcoin accounts for 0.21 percent of [electricity consumption worldwide](https://digiconomist.net/bitcoin-energy-consumption).
+It also suffers from a lack of efficiency, with slow transaction times, and high fees. In December 2017, average transaction fees reached a high of [$55](https://bitinfocharts.com/comparison/bitcoin-transactionfees.html#3m).
 
 
 ### Proof of stake
