@@ -8,6 +8,7 @@ Back to [contents](../)
 [image2]: images/blockchain2.PNG "Merkle tree"
 
 A key tenant of cryptography is that anything that uses a centralized entity to carry out a function can be done without the intermediary. This is the basis for blockchain technologies, where people can transact or agree on and execute contracts without the need for a third party.
+
 In this first of a series of articles, I aim to explain the theory and practices involved in what may be one of the most revolutionary technologies of our time. Whereas the various whitepapers of cryptocurrencies and smart contract platforms can be dense and presuppose a degree of technical experience, I hope to distill complex concepts for anyone to understand. 
 Many people may have first heard of Bitcoin before they did blockchain. Bitcoin is a digital currency which is transacted on and validated by a blockchain. It enables people around the world to send funds without an intermediary such as a bank. The underlying technology may be the enduring legacy of the currency, since its potential goes far beyond simply a method for transactions. 
 
@@ -38,9 +39,12 @@ According to the Linux Foundation, distributed ledger technology (DLT) generally
 
 
 It can be illustrative to use Bitcoin as an example. Bitcoin is sustained by distributed computers which operate as ‘nodes’ on the network. Though Bitcoin requires massive computing power beyond the hope of a laptop, some more recent cryptocurrencies and blockchain projects are designed so it’s less costly to operate a ‘node’. Why do people leave their computers on all night and increase their electricity bill to help sustain the network? Participants generally receive rewards, paid in the cryptocurrency or ‘tokens’ of the project they are helping support. 
+
 Back to Bitcoin. The blockchain is constantly updated, and there is a consensus protocol among network participants to have the majority agree that valid transactions took place and in a certain order. There are different methods for achieving this, and we’ll go into some of the main theories below. Bitcoin uses an approach called ‘proof-of-work’.
+
 Proof-of-work involves nodes, also called ‘miners’ because they ‘mine’ bitcoins, which compete to solve cryptographic puzzles and add transactions to the blockchain. We can dive deeper into proof-of-work by examining what we mean by a ‘block’.
 Miners bundle confirmed and unconfirmed transactions together into a ‘block’. They then use extensive computing power in a race against among other miners (or ‘mining pools’ of participants working together) to solve cryptographic challenges and propose this group of transactions as the next validated block to be added to the blockchain. The winning miner or mining pool then receives a fee in Bitcoin for solving the challenge. These blocks then become part of the immutable record of transactions and are publicly available here.
+
 The following diagram shows some of the computer science concepts employed here. The binary hash tree, also known as a Merkle tree, is a data structure which allows cryptographic hashes of its ‘leaves’ to keep immutable records as data is added to the ‘tree’.
 
 
@@ -48,13 +52,15 @@ The following diagram shows some of the computer science concepts employed here.
 tx = transaction
 
 If this seems complex, the topic is even fraught with difficulties for computer scientists. The main takeaway is that incoming transactions are added to an immutable record. The transaction root for block 8 becomes the previous hash (‘prev_hash’) of block 9, which is then carried to block 10. Incoming hashes from transactions 0, 1, 2, 3, become the root of those blocks. Were a malicious actor to attempts to inject a fraudulent transaction at say, tx 0, the record would show up the tree since hash 0 and Hash 01 wouldn’t be correct. In this fashion the entire blockchain becomes one single source of truth. 
+
 The real-time knowledge and immutability of data has massive implications for an array of industries. Imagine a chain of restaurants that could accurately predict what fresh food they had available at every location in real-time. Or that while travelling to another state or country you need immediate access to your encrypted, anonymized health records on seeing a new doctor. The technology’s scope reaches far beyond digital currency.
 
 ### Scalability
 
 This consensus mechanism is an essential part of validating the transactions to ensure transparency and avoid fraudulent attacks. As the blockchain grows with transactions added daily, it can become enormously costly to maintain, and therefore difficult to scale to more users. 
-Bitcoin now accounts for 0.21 percent of [electricity consumption worldwide](https://digiconomist.net/bitcoin-energy-consumption).
-It also suffers from a lack of efficiency, with slow transaction times, and high fees. In December 2017, average transaction fees reached a high of [$55](https://bitinfocharts.com/comparison/bitcoin-transactionfees.html#3m).
+
+Bitcoin now accounts for 0.21 percent of [electricity consumption worldwide](https://digiconomist.net/bitcoin-energy-consumption). It also suffers from a lack of efficiency, with slow transaction times, and high fees. In December 2017, average transaction fees reached a high of [$55](https://bitinfocharts.com/comparison/bitcoin-transactionfees.html#3m).
+
 Mining power is heavily concentrated for Bitcoin, which threatens its decentralization and could even make the network susceptible to what is known as a ‘51% attack’ – a reference to the fact that if more than half of network participants agreed to write fraudulent transactions to the chain, they may be able to do so.
 
 ### Proof-of-stake
