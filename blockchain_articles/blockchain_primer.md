@@ -6,6 +6,7 @@ Back to [contents](../)
 
 [image1]: images/blockchain1.PNG "Distributed ledger"
 [image2]: images/blockchain2.PNG "Merkle tree"
+[image3]: images/blockchain3.PNG "Decentralized structure"
 
 A key tenant of cryptography is that anything that uses a centralized entity to carry out a function can be done without the intermediary. This is the basis for blockchain technologies, where people can transact or agree on and execute contracts without the need for a third party.
 
@@ -30,6 +31,9 @@ Powerful computers over the past 50 years were largely centralized. They occupie
 ### Decentralization
 
 Though the hardware in these cases is decentralized in the sense it may be spread geographically, the applications (Facebook, Twitter etc) are centralized. Decentralization in computing means that the end user at their laptop can not only access their data but they still control the asset, thus removing any need for third parties.
+
+![alt text][image3]
+
 
 ### Finer points of a decentralized ledger
 
