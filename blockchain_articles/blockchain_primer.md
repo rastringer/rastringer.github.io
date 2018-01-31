@@ -1,4 +1,4 @@
-Back to [contents](../index.md)
+Back to [contents](../)
 
 ## Distilling the Blockchain
 
