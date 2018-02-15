@@ -11,7 +11,7 @@ Back to [contents](../)
 [image5]: images/image5.PNG "Updated Ledger"
 
 
-This write up accompanies a sample application that serves as an example of how we might employ blockchain technology to address the significant problem of prescription medication abuse in the U.S.
+This article accompanies a (sample application)(https://github.com/rastringer/medication-blockchain) that serves as an example of how we might employ blockchain technology to address the significant problem of prescription medication abuse in the U.S.
 
 ### The problem
 
