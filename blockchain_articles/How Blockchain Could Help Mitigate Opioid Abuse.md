@@ -54,5 +54,5 @@ We can change the holder (in this case, from pharmacy chain KVS to a doctor's of
 
 The ledger now reflects the change for packet 1. This will be broadcast across the network.
 
-Clone and run the application on your system [here](https://github.com/rastringer/medication-blockchain)
+Clone and run the application on your system [here](https://github.com/rastringer/medication-blockchain).
 
