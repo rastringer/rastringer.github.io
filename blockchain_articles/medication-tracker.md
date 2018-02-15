@@ -1,3 +1,5 @@
+Back to [contents](../)
+
 ## How Blockchain Could Help Mitigate Opioid Abuse
 
 [//]: # (Image References)
