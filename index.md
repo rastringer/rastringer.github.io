@@ -13,3 +13,7 @@ Using image pre-processing techniques and convolutional neural networks to teach
 [Distilling the Blockchain](blockchain_articles/blockchain_primer.md)
 
 An introduction to blockchain technologies and consensus techniques.
+
+[How Blockchain Help Mitigate the Opioid Crisis](blockchain_articles/medication-tracker.md)
+
+An overview of a Hyperledger application to track medications from manufacturer, to distributor and pharmacy.
