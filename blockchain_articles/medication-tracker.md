@@ -1,4 +1,4 @@
-## Medication Tracker Built on Hyperledger Fabric
+## How Blockchain Could Help Mitigate Opioid Abuse
 
 [//]: # (Image References)
 
